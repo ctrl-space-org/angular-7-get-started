@@ -4,17 +4,23 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
+import { ServersComponent } from './servers/servers.component';
+import { MyComponentComponent } from './my-component/my-component.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ServerComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+   declarations: [
+      AppComponent,
+      ServerComponent,
+      ServersComponent,
+      MyComponentComponent
+   ],
+   imports: [
+      BrowserModule,
+      FormsModule
+   ],
+   providers: [],
+   bootstrap: [
+      AppComponent
+   ]
 })
 export class AppModule { }
