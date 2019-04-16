@@ -5,6 +5,11 @@ import { Component } from '@angular/core';
     // selector: '[app-servers]',
     // selector: '.app-servers',
     templateUrl: './server.component.html',
+    styles: [`
+        .online {
+            color: white
+        }
+    `]
 })
 export class ServerComponent {
     serverId: number = 10;
